@@ -1,0 +1,22 @@
+{
+  "name": "machine-learning-server",
+  "version": "1.0.0",
+  "description": "a machine learning server using express and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylan-Myfarms/machine-learning-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylan-Myfarms/machine-learning-server/issues"
+  },
+  "homepage": "https://github.com/Dylan-Myfarms/machine-learning-server#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
