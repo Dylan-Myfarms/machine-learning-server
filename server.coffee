@@ -1,8 +1,9 @@
 express = require 'express'
 app = express()
+path = require 'path'
 
 app.get('/', (req, res)=> 
-	res.send 'Hello World!'
+	res.sendFile path.join __dirname+'/views/index.html'
 );
 
 server = app.listen(8000, ()=> 
